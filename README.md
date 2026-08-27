@@ -6,7 +6,7 @@ Class Activation Map (CAM) highlighting the region the model focused on.
 
 This is the *deployment* repository — inference code only. Model training,
 notebooks, and experiments live in the companion repository,
-**[Skincancer-Prediction](https://github.com/bmprateek/Skincancer-Prediction)**.
+**[Skincancer-Prediction](https://github.com/bmprateek/bio-inspired-skin-cancer-classification_TrainingRepo)**.
 
 ## Table of contents
 
