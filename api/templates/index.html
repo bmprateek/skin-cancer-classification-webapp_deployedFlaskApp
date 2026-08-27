@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Classification</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="https://kit.fontawesome.com/b61198c996.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="header-text">Upload Your Skin lesion</div></div>
+  <br><br>
+  <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+
+    <div class="Image-upload-container">
+      <label for="file-input">
+        <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+      </label>
+      <input type="file" id="file-input" name="file" class="Image-upload">
+      
+    </div>
+
+    <!-- <div class="btn-group">         -->
+        <button type="reset" class="btn-cnl">Cancel</button>
+        <button type="submit" class="btn-sbmt">Submit</button>
+        
+    <!-- </div> -->
+  </form>
+
+	<!-- {% if prediction %}
+  <img src="{{img_path}}" height="400px" width="400px">
+	<h2> Your Prediction   : <i> {{prediction}} </i></h2>
+
+	{% endif %} -->
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
